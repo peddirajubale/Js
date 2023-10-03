@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List1</title>
+    <script type="text/javascript" src="todo-list1.js"></script>
+    <style>
+        .container{
+            text-align: center;
+        }
+        .input-box{
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        .btn{
+            padding: 5px;
+            width: 60px;
+            background-color: green;
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>To-do List</h1>
+    <form>
+        <input type="text" id="task" placeholder="Add Task here" class="input-box">
+        <br>
+        <button type="submit" id="add-task" class="btn">Add</button>
+    </form>
+    <ul id="tasks"></ul>
+</div>
+</body>
+</html>

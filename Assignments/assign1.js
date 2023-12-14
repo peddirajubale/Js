@@ -85,7 +85,8 @@
 // console.log(uncapitalize('Js string exercises'));
 
 
-// 6)Write a function truncateText that takes a string and a maximum length as input and returns a truncated version of the string if it exceeds the maximum length, adding "..." at the end.
+// 6)Write a function truncateText that takes a string and a maximum length as input and returns 
+//a truncated version of the string if it exceeds the maximum length, adding "..." at the end.
 
 // 7)console.log(truncateText("This is a long sentence.", 10));
 //  // Output: "This is a..."
@@ -188,3 +189,34 @@
 //     }
 // }
 // evenOrOdd(4)
+// 14)Ticket Pricing
+// Write a function calculateTicketPrice that takes two parameters: a person's age and whether they have a student ID (true or false). 
+// If the person is under 18 or a student, they get a discount. If both conditions are met, return "Discounted price," 
+// otherwise return "Regular price."
+
+// const calculateTicketPrice=(age, isStudent)=>{
+
+
+//   let age = 20
+//   let isStudent = false
+//     if (age < 18 || isStudent) {
+//         console.log("Discounted price");
+//     } else {
+//         console.log("Regular price");
+//     }
+
+// calculateTicketPrice(17, true)
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// fruits.splice(2, 0,"Lemon", "Kiwi","orange");
+// console.log(fruits)
+
+const shoppingList = [];
+shoppingList.push("eggs");
+shoppingList.push("milk");
+shoppingList.push("bread");
+shoppingList.push("vegetables");
+console.log(shoppingList);
+shoppingList.splice(shoppingList.indexOf("bread"), 2);
+console.log(shoppingList)

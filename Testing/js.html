@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,5 +17,67 @@
     <p id="name">raju</p>
     <button onclick="clicked()">Click!</button>
 
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  margin: 0px;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100vh;
+  border: 10px solid goldenrod;
+  max-width: 500px;
+}
+
+.box {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.box1 {
+  background-color: #1abc9c;
+
+}
+
+.box2 {
+  background-color: #3498db;
+  align-items: flex-end;
+  
+
+}
+
+.box3 {
+  background-color: #983e9c;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* .box4 {
+  background-color: #333333;
+  align-self: stretch;
+} */
+    </style>
+</head>
+<body>
+    <div class="boxes-container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        
+      </div>
 </body>
 </html>

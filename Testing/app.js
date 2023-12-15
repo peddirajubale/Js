@@ -1,14 +1,9 @@
-function callback(){
-    console.log("Peddiraju")
+function bankDetails(totalAmt, userAmt, op){
+    if (op === "+"){
+        alert("Creat Amount"+totalAmt+userAmt)
+    }else{
+        alert("Deposit Amount"+totalAmt-userAmt)
+    }
 }
 
-function add (a,b,func){
-    console.log(a+b)
-    func()
-}
-
-// add (7,9)
-
-let a =2
-let b=5
-add (a,b,callback)
+bankDetails(5000, 2000, "+")

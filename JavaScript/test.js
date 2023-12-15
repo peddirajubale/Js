@@ -13,19 +13,56 @@
 // let n = "Raju,Manoj,kumar"
 // console.log(n.replace("Manoj","king"))
 
-let email = "rekeshkumarjavvadi@gmail.com"
 
-let f_4_ltrs = email.slice(0,4)
 
-let star = "*"
-let stars = star.padStart(5, "*")
 
-let f_4_ltrs_and_stars = f_4_ltrs+stars
+// const calculator = (num1,num2,op) =>{
+//     if (op == "+"){
+//         console.log(num1+num2)
+//     }else if (op == "-"){
+//         console.log(num1-num2)
+//     }else if (op == "*"){
+//         console.log(num1*num2)
+//     }else if (op == "/"){
+//         console.log(num1/num2)
+//     }else if (op == "%"){
+//         console.log(num1%num2)
+//     }else{
+//         console.log("No Result")
+//     }
 
-let length_of_word = f_4_ltrs_and_stars.length
+// }
+ 
+// calculator(8,2)
 
-let star_after = email.slice(length_of_word)
+// let name = "Raju"
+// console.log(name)
 
-let result = f_4_ltrs_and_stars.concat(star_after)
+// let email = "rekeshkumarjavvadi@gmail.com"
+// // let output = "rek*****marjavvadi@gmail.com"
 
-console.log(result)
+// let first_three = email.slice(0,3)
+// let five_stars = first_three.padEnd(8,"*")
+// let length_of_word = five_stars.length
+// // let remaining_ltrs = email.slice(length_of_word)
+// // let result = five_stars.concat(remaining_ltrs)
+// let result = five_stars+email.slice(length_of_word)
+// console.log(result)
+
+// let cars = [1,5,3,8,9,6]
+
+// let text = ""
+// for (let i = 0; i < cars.length; i++) {
+//     text += cars[i]
+//     console.log(text)
+//   }
+
+// let fruits = ["apple","banana"]
+// let add = fruits.push("orange")
+// // fruits.pop()
+// // fruits.unshift("grape")
+// // fruits.shift()
+// // console.log(fruits)
+// let last_ele = fruits[2]
+// let remaing = [last_ele.length-1]
+// console.log(remaing)

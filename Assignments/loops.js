@@ -9,6 +9,7 @@
 // }
 // console.log(sum)
 
+
 // **2. Factorial of a Number:**
 // Write a program to calculate the factorial of a given number `n` using a `for` loop.
 
@@ -29,7 +30,7 @@
 //   console.log(`${n} x ${i} = ${n * i}`);
 // }
 
-const n=5
-for (let i=1; i<=10; i++){
-    console.log(`${n} X ${i} = ${n*i}`)
-}
+// const n=5
+// for (let i=1; i<=10; i++){
+//     console.log(`${n} X ${i} = ${n*i}`)
+// }

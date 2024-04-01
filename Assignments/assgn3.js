@@ -11,7 +11,17 @@
 // const p = 'Peddiraju'
 // const output = reversed_str(p)
 // console.log(output)
+function reversed(z){
+    let ut=''
+    for(let i=z.length-1; i>=0; i--){
+        ut += z[i]
+    }
+    return ut
+}
 
+const x = 'Manoj'
+const output=reversed(x)
+console.log(output)
 // **3. Fibonacci Sequence:**
 // Generate and print the first `n` terms of the Fibonacci sequence using a `for` loop.
 
@@ -29,13 +39,13 @@
 // **8. Print Pattern:**
 // Write a program to print a pattern of stars using a `for` loop.
 
-const n=5
+// const n=5
 
-for(let rows=1; rows<=n; rows++){
-    let pattern=''
-    for(let cols=1; cols<=rows; cols++){
-        pattern = pattern+ "*"+' '
-    }
-    console.log(pattern)
-}
+// for(let rows=1; rows<=n; rows++){
+//     let pattern=''
+//     for(let cols=1; cols<=rows; cols++){
+//         pattern = pattern+ "*"+' '
+//     }
+//     console.log(pattern)
+// }
 
